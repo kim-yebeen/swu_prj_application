@@ -14,7 +14,7 @@ class OrderProductServiceTest {
 
     @Test
     void createDummyOrderProduct() {
-        int a = 3 / 0 ;
+        
         // orderProductService.createDummyOrderProduct();
         orderProductService.createDummyOrderProductWithInlineTransaction();
     }
